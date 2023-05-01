@@ -1,0 +1,15 @@
+name: release-chart
+on:
+  push:
+    tags: '*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Helm Publisher
+      uses: stefanprodan/helm-gh-pages@v1.7.0
+      with:
+        charts_dir: '.'
+        token: ${{ secrets.GITHUB_TOKEN }}
