@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Helm Publisher
-      uses: tylerauerbeck/helm-gh-pages
+      uses: tylerauerbeck/helm-gh-pages@3227331
       with:
         charts_dir: '.'
         token: ${{ secrets.GITHUB_TOKEN }}
