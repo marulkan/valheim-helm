@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  valheim:
+  - apiVersion: v1
+    appVersion: 0.142.6
+    created: "2023-05-02T05:33:52.395070317Z"
+    description: Valheim dedicated server.
+    digest: 42d1526a0e1847112426fd1ce2dc5bd9e1467cb29c0ac8856231658ea7548af7
+    home: https://www.valheimgame.com/
+    icon: https://images.squarespace-cdn.com/content/v1/5e203941ee6ea226e307532c/1591180313714-TA1DE6YCY0ZI4N71H51X/ke17ZwdGBToddI8pDm48kAu641Ux84EsRAFSPI0sGhp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pkshKfPpdbFc2TdErj7uCELEZ-jAsNQpHYczxoOmsKneNGVJWmhdcDAqFjgHQH5ag/valheim_transparent.png?format=2500w
+    keywords:
+    - game
+    - server
+    name: valheim
+    sources:
+    - https://github.com/lloesche/valheim-server-docker
+    urls:
+    - https://marulkan.github.io/valheim-helm/valheim-1.0.2.tgz
+    version: 1.0.2
+generated: "2023-05-02T05:33:52.392805124Z"
