@@ -52,11 +52,11 @@ spec:
           value: {{ .Values.valheimServer.updateCron | quote }}
         - name: VALHEIM_PLUS
           value: "true"
-        - name: VPCFG_ITEMS_ENABLED
+        - name: VPCFG_Items_enabled
           value: "true"
-        - name: VPCFG_ITEMS_NOTELEPORTPREVENTION
+        - name: VPCFG_Items_noTeleportPrevention
           value: "true"
-        - name: VPCFG_ITEMS_FLOATINWATER
+        - name: VPCFG_Items_itemsFloatInWater
           value: "true"
         ports:
         - name: valheim-1
