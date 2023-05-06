@@ -50,7 +50,14 @@ spec:
           value: {{ .Values.valheimServer.restartCron | quote }}
         - name: UPDATE_CRON
           value: {{ .Values.valheimServer.updateCron | quote }}
-
+        - name: VALHEIM_PLUS
+          value: "true"
+        - name: VPCFG_ITEMS_ENABLED
+          value: "true"
+        - name: VPCFG_ITEMS_NOTELEPORTPREVENTION
+          value: "true"
+        - name: VPCFG_ITEMS_FLOATINWATER
+          value: "true"
         ports:
         - name: valheim-1
           containerPort: {{ .Values.valheimServer.serverPort | int }}
