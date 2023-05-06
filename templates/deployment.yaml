@@ -52,6 +52,10 @@ spec:
           value: {{ .Values.valheimServer.updateCron | quote }}
         - name: VALHEIM_PLUS
           value: "true"
+        - name: VALHEIM_PLUS_REPO
+          value: "Grantapher/ValheimPlus"
+        - name: VALHEIM_PLUS_RELEASE
+          value: "tags/0.9.9.15"
         - name: VPCFG_Items_enabled
           value: "true"
         - name: VPCFG_Items_noTeleportPrevention
