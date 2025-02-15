@@ -55,7 +55,7 @@ spec:
         - name: VALHEIM_PLUS_REPO
           value: "Grantapher/ValheimPlus"
         - name: VALHEIM_PLUS_RELEASE
-          value: "tags/0.9.9.15"
+          value: "tags/0.9.15.0"
         - name: VPCFG_Items_enabled
           value: "true"
         - name: VPCFG_Items_noTeleportPrevention
